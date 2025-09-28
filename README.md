@@ -213,7 +213,8 @@ forecaster_avanzado = ForecasterRecursive(
 ### Visualización de Predicciones
 
 ![Final Predictions](images/final_predictions.png)
-*Imagen 7: Predicciones finales vs valores reales para la semana de prueba*
+
+*Imagen 6: Predicciones finales vs valores reales para la semana de prueba*
 
 ## 🔍 Análisis de Patrones Detectados
 
@@ -296,24 +297,6 @@ print(f"📊 MAE:  {mae:.2f} MW")
 - [ ] 📱 **Dashboard interactivo**: Streamlit/Dash para visualización
 - [ ] 🚨 **Sistema de alertas**: Detección de anomalías automática
 - [ ] 🔮 **Horizonte extendido**: Predicciones a 2-4 semanas
-
-## 🛠️ Comandos Útiles
-
-```bash
-# Ejecutar notebook completo
-jupyter nbconvert --execute energy_forecasting.ipynb
-
-# Generar reporte HTML
-jupyter nbconvert --to html energy_forecasting.ipynb
-
-# Ejecutar tests
-python -m pytest tests/
-
-# Crear entorno virtual
-python -m venv energy_env
-source energy_env/bin/activate  # Linux/Mac
-energy_env\Scripts\activate     # Windows
-```
 
 ## 🤝 Contribuir al Proyecto
 
