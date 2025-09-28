@@ -11,6 +11,7 @@
 Este proyecto desarrolla un modelo de Machine Learning para pronosticar el consumo de energía eléctrica con un horizonte de predicción de una semana, utilizando la librería SKForecast y técnicas avanzadas de ingeniería de características.
 
 ![Proyecto Overview](images/proyecto_overview.png)
+
 *Imagen 1: Configuración inicial del proyecto y librerías utilizadas*
 
 ## 🎯 Objetivos
@@ -76,6 +77,7 @@ energy-forecasting/
 ### Carga y Preparación de Datos
 
 ![Data Loading](images/data_loading.png)
+
 *Imagen 2: Carga inicial de datos y exploración de la estructura del dataset*
 
 El dataset contiene **29,232 registros** con frecuencia de 30 minutos, abarcando los años 2023-2024:
@@ -87,11 +89,13 @@ El dataset contiene **29,232 registros** con frecuencia de 30 minutos, abarcando
 ### Visualización de Patrones Temporales
 
 ![Time Series Analysis](images/time_series_complete.png)
+
 *Imagen 3: Serie temporal completa mostrando patrones estacionales y tendencias*
 
 #### Análisis con Media Móvil
 
 ![Moving Average Analysis](images/moving_average_analysis.png)
+
 *Imagen 4: Análisis con media móvil de 24 horas y 7 días para identificar patrones*
 
 ## 🔧 Ingeniería de Características
@@ -111,6 +115,7 @@ def crear_caracteristicas_temporales(df):
 ### 2. Análisis de Patrones Horarios
 
 ![Feature Engineering](images/feature_engineering.png)
+
 *Imagen 5: Proceso de ingeniería de características y creación de variables*
 
 #### Patrones Identificados:
@@ -191,6 +196,7 @@ forecaster_avanzado = ForecasterRecursive(
 ### Comparación de Modelos
 
 ![Model Results](images/model_comparison.png)
+
 *Imagen 6: Comparación visual entre predicciones y valores reales*
 
 | 🏆 Modelo | RMSE (MW) | MAE (MW) | 📈 Mejora |
