@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/SKForecast-Latest-green.svg" alt="SKForecast">
   <img src="https://img.shields.io/badge/XGBoost-Enabled-orange.svg" alt="XGBoost">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
 </div>
 
 ## 📊 Descripción del Proyecto
@@ -340,58 +339,4 @@ energy_env\Scripts\activate     # Windows
 
 Este proyecto está licenciado bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE) para detalles.
 
-```
-MIT License
 
-Copyright (c) 2024 Energy Forecasting Project
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
-
-## 👥 Autores y Reconocimientos
-
-### 👨‍💻 Autor Principal
-- **Nombre**: [Tu Nombre]
-- **Email**: [tu.email@ejemplo.com]
-- **LinkedIn**: [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
-- **GitHub**: [github.com/tu-usuario](https://github.com/tu-usuario)
-
-### 🙏 Agradecimientos
-- **SKForecast Team** por la excelente librería
-- **XGBoost Developers** por el algoritmo robusto
-- **COES Perú** por proporcionar los datos de demanda eléctrica
-- **Comunidad Python** por las herramientas open source
-
-## 📞 Soporte y Contacto
-
-¿Tienes preguntas o necesitas ayuda?
-
-- 📧 **Email**: [tu.email@ejemplo.com]
-- 💬 **Issues**: [GitHub Issues](https://github.com/tu-usuario/energy-forecasting/issues)
-- 📱 **LinkedIn**: [Mensaje directo](https://linkedin.com/in/tu-perfil)
-- 🐦 **Twitter**: [@tu_usuario](https://twitter.com/tu_usuario)
-
----
-
-<div align="center">
-
-**⭐ Si este proyecto te resultó útil, considera darle una estrella ⭐**
-
-*Desarrollado con ❤️ para la optimización del sector energético*
-
-![Footer](https://img.shields.io/badge/Made%20with-❤️-red.svg)
-![Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)
-![SKForecast](https://img.shields.io/badge/Powered%20by-SKForecast-green.svg)
-
-</div>
-
-## 📊 Estadísticas del Proyecto
-
-```
-📈 Líneas de código: ~500
-📝 Documentación: Completa
-🧪 Tests: En desarrollo
-📦 Dependencias: 8 principales
-⚡ Tiempo de entrenamiento: ~2 minutos
-🎯 Precisión: 93.4% (R²)
-```
