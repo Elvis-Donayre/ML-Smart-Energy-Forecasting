@@ -195,10 +195,6 @@ forecaster_avanzado = ForecasterRecursive(
 
 ### Comparación de Modelos
 
-![Model Results](images/model_comparison.png)
-
-*Imagen 6: Comparación visual entre predicciones y valores reales*
-
 | 🏆 Modelo | RMSE (MW) | MAE (MW) | 📈 Mejora |
 |-----------|-----------|----------|-----------|
 | Modelo Base | 150.58 | 117.00 | - |
